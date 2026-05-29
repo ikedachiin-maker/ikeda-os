@@ -1,0 +1,23 @@
+# 個人データ・知識コーパスはコミットしない（シンボリックリンク先の実体含む）
+knowledge/myvault
+knowledge/**/*.md
+!knowledge/README.md
+
+# 流動記憶の実データ（構造のみコミット、中身は除外したい場合はコメント解除）
+# brain/memory/**/*.md
+# !brain/memory/**/README.md
+
+# シークレット
+.env
+.env.*
+*.key
+*.pem
+secrets/
+ops/logs/*.log
+
+# OS / エディタ
+.DS_Store
+.obsidian/
+node_modules/
+__pycache__/
+*.pyc
