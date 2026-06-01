@@ -10,14 +10,17 @@ knowledge/**/*.md
 # シークレット
 .env
 .env.*
+!.env.example
+!**/.env.example
 *.key
 *.pem
 secrets/
 ops/logs/*.log
 
-# OS / エディタ
+# OS / エディタ / ツール生成物
 .DS_Store
 .obsidian/
+.agent-trace/
 node_modules/
 __pycache__/
 *.pyc
