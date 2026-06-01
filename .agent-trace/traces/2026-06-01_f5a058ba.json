@@ -1,0 +1,38 @@
+{
+  "version": "0.1.0",
+  "id": "f5a058ba-7291-4807-a073-eedb92e2ac22",
+  "timestamp": "2026-06-01T00:06:12.405Z",
+  "files": [
+    {
+      "path": "agents/secretary.md",
+      "conversations": [
+        {
+          "contributor_type": "ai",
+          "model": "anthropic/claude-opus-4-5-20251101",
+          "ranges": [
+            {
+              "start_line": 1,
+              "end_line": -1
+            }
+          ],
+          "description": "Edit: text replacement"
+        }
+      ]
+    }
+  ],
+  "tool": {
+    "name": "taisun-agent",
+    "version": "2.10.1"
+  },
+  "metadata": {
+    "dev.taisun": {
+      "hook": "agent-trace-capture",
+      "tool_used": "Edit"
+    }
+  },
+  "vcs": {
+    "type": "git",
+    "commit": "0877922f34eedcc6431b558715633f2e81062ba4",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version": "0.1.0",
+  "id": "0eccca74-60a4-4b63-a8b5-be0cd8d05cf5",
+  "timestamp": "2026-06-01T00:04:11.615Z",
+  "files": [
+    {
+      "path": "runtime/secretary/src/googleCalendar.js",
+      "conversations": [
+        {
+          "contributor_type": "ai",
+          "model": "anthropic/claude-opus-4-5-20251101",
+          "ranges": [
+            {
+              "start_line": 1,
+              "end_line": -1
+            }
+          ],
+          "description": "Write: file creation/overwrite"
+        }
+      ]
+    }
+  ],
+  "tool": {
+    "name": "taisun-agent",
+    "version": "2.10.1"
+  },
+  "metadata": {
+    "dev.taisun": {
+      "hook": "agent-trace-capture",
+      "tool_used": "Write"
+    }
+  },
+  "vcs": {
+    "type": "git",
+    "commit": "0877922f34eedcc6431b558715633f2e81062ba4",
+    "branch": "main"
+  }
+}

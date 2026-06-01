@@ -1,0 +1,16 @@
+{
+  "name": "ikeda-os-secretary",
+  "version": "0.1.0",
+  "description": "secretary: 日本語の予定文をGoogleカレンダーに登録する最小ループ（ikeda-os）",
+  "type": "module",
+  "bin": {
+    "secretary": "src/index.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "dry": "node src/index.js"
+  },
+  "dependencies": {
+    "googleapis": "^144.0.0"
+  }
+}
