@@ -1,0 +1,10 @@
+{
+  "name": "ikeda-os-bridge",
+  "version": "0.1.0",
+  "description": "LINE Webhook → secretary（予定登録）の橋（ikeda-os）",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/server.js"
+  }
+}
